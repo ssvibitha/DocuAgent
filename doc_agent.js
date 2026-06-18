@@ -1,15 +1,3 @@
-#!/usr/bin/env node
-/**
- * Minimal RAG document Q&A using the Gemini API.
- * No npm installs needed (Node 18+ has built-in fetch).
- *
- * Setup:
- *   export GEMINI_API_KEY=your_key_here
- *   node rag.js path/to/document.txt
- *
- * Then type questions at the "Q:" prompt. Type "exit" to quit.
- */
-
 const fs = require('fs');
 const readline = require('readline');
 
